@@ -1,0 +1,8 @@
+*
+
+!flake.nix
+!flake.lock
+!README.md
+!.gitignore
+!.pre-commit-config.yaml
+!commitlint.config.js
