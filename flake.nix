@@ -12,7 +12,7 @@
     rec {
       devShells.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          go_1_20
+          go
           yamllint
           gofumpt
         ];
@@ -35,7 +35,7 @@
           if [ ! -d $XDG_CACHE/dev-shell/vega ]; then
             mkdir -p $XDG_CACHE/dev-shell/vega
           fi
-          export GOROOT=$(nix path-info nixpkgs#go_1_20)/share/go
+          export GOROOT=$(nix path-info nixpkgs#go)/share/go
           export GOPATH=$XDG_CACHE/dev-shell/vega/go
           export PATH=$GOPATH/bin:$HOME/.pyenv/versions/3.11.4/bin:$PATH
 
