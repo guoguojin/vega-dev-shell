@@ -24,7 +24,7 @@
         PROTOC_GEN_GRPC_GATEWAY_VER="2.7.3";
         PROTOC_GEN_OPENAPIV2_VER="2.7.3";
         PROTOC_GEN_DOC_VER="1.5.1";
-        GOLANGCI_LINT_VER="1.53.2";
+        GOLANGCI_LINT_VER="1.55.1";
 
         shellHook = ''
           if [ -z $XDG_CACHE ]; then
